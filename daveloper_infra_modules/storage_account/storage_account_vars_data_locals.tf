@@ -37,5 +37,6 @@ variable "storage_account_network_rules_bypass" {
 variable "storage_container_name" {}
 variable "container_access_type" {}
 variable "tags" {
-  type = map(string)
+  type    = map(string)
+  default = null
 }

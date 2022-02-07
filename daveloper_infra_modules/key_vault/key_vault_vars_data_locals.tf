@@ -14,5 +14,6 @@ variable "main_account_object_id" {
   sensitive = true
 }
 variable "tags" {
-  type = map(string)
+  type    = map(string)
+  default = null
 }

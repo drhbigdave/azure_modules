@@ -18,7 +18,7 @@ resource "azurerm_key_vault" "this" {
     virtual_network_subnet_ids = var.key_vault_network_acls_vnet_subnet_ids
   }
 
-  tags = local.tags
+  tags = var.tags
 }
 
 resource "azurerm_key_vault_access_policy" "this" {

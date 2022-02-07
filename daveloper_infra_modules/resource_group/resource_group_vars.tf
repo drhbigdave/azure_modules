@@ -6,5 +6,6 @@ variable "resource_group_location" {
   default = "East US"
 }
 variable "tags" {
-  type = map(string)
+  type    = map(string)
+  default = null
 }

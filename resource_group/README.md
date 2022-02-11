@@ -1,7 +1,7 @@
 1. Ensure the ref to version is appropriate.
 2. ensure in you have a locals block with your parameter values to create tags:
 
-```` terraform
+``` terraform
 locals {
   tags = {
     project = "daveloper core infra"
